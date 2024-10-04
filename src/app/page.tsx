@@ -1,5 +1,9 @@
-import Image from "next/image";
+import { styled } from "@/functions/styled1";
 
 export default function Home() {
-  return <div>aaa</div>;
+  const Div = styled("div", {
+    color: "red",
+  });
+
+  return <Div>aaa</Div>;
 }
