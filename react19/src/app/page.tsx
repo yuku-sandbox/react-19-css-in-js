@@ -1,4 +1,4 @@
-import { styled } from "@/functions/styled1";
+import { styled } from "../functions/styled1";
 
 export default function Home() {
   const Div = styled("div", {

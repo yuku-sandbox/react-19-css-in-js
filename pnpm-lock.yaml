@@ -7,6 +7,21 @@ settings:
 importers:
 
   .:
+    devDependencies:
+      '@types/node':
+        specifier: ^20
+        version: 20.16.10
+      '@types/react':
+        specifier: ^18
+        version: 18.3.11
+      '@types/react-dom':
+        specifier: ^18
+        version: 18.3.0
+      typescript:
+        specifier: ^5
+        version: 5.6.2
+
+  react19:
     dependencies:
       '@sindresorhus/fnv1a':
         specifier: ^3.1.0
